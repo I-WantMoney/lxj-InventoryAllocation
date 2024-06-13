@@ -9,11 +9,15 @@
     },
     {
         "ParameterKey": "PublicSubnet1CIDR",
-        "ParameterValue": "10.0.1.0/24"
+        "ParameterValue": "10.0.3.0/24"
     },
     {
         "ParameterKey": "PrivateSubnet1CIDR",
         "ParameterValue": "10.0.2.0/24"
+    },
+    {
+        "ParameterKey": "PrivateSubnet2CIDR",
+        "ParameterValue": "10.0.1.0/24"
     },
     {
         "ParameterKey": "DBMasterUsername",
@@ -22,5 +26,14 @@
     {
         "ParameterKey": "DBMasterUserPassword",
         "ParameterValue": "mydbpassword"
+    },
+    {
+        "ParameterKey": "LambdaCodeBucket",
+        "ParameterValue": "lxj-lambda-code-bucket"
+    },
+    {
+        "ParameterKey": "LambdaCodeKey",
+        "ParameterValue": "fastapi-app/lambda_function.zip"
     }
+
 ]
